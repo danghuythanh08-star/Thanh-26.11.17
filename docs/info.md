@@ -1,20 +1,13 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+Chip dem so 8-bit. Moi xung clock, neu ui[0] = 1 thi gia tri dem tang them 1.
+Gia tri dem duoc dua ra uo[7:0]. Reset (rst_n = 0) dua bo dem ve 0.
 
 ## How to test
 
-Explain how to use your project
+Giu rst_n = 0 vai chu ky de reset, sau do dat rst_n = 1.
+Dat ui[0] = 1 va cap clock, gia tri tren uo[7:0] se tang dan 0, 1, 2...
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Khong can.
